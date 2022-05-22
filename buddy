@@ -1,0 +1,21 @@
+17-05
+1. Custom csv mapped locally and given to atif for cloud upload of JKart.
+2. Sample csv collected and preparing for custom upload platform with mandatory firlds and variable type.
+3. Given stocker KT to Faizan ahmad
+4. Ticket (1228) solved 
+   Verifying keys and api callled in app.wigzo.com of Customer table, Product table, Order table, from our database POSTGRESQL (Order -> Add filter all fields verification).
+
+   Found three mismatches. 
+   last_sms_clicked -> last_sms_click
+   last_email_clicked -> last_email_click
+   last_sms_sent -> last_email_sent 
+
+5. Tried Magento nginx.conf file error to resolve.
+   
+------------------------------------------------------------------------------------------
+18-05
+1. Sample csv prepared and submitting to saad junaidi.
+2. Custom csv upload of jkcart (in progress).
+3. Magento local setup error handling.
+
+
