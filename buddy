@@ -25,3 +25,38 @@
 
 ------------------------------------------------------------------------------------------
 
+24-05
+1. 1. KT with @Faizan Ahmad on panel, code deployment 9000, git use, release process. 
+2. Documentation on queries on Segmentation in app.wigo.com and stocker. 
+3. JKCART CSV mapping and error resolved with atif. Shared all mapped CSV files which he will upload in stocker.
+
+------------------------------------------------------------------------------------------
+
+30-05
+1. jk cart csv upload to production.
+2. Job explanation call reshedule to 31-05.
+3. Client side error on org_id = 10871 
+   showing error on their server side.
+3.1. Call with the client @5:00 with navyas fashion client (org_id=10871).
+
+4. Requested stocker repo access to atyab sir.
+5. Buddy file restore. 
+
+-----------------------------------------------------------------------------------------==
+
+02-06
+
+1. Product demo given to najrul and asad
+
+--------------------------------------------------------------------------------------------
+
+07-06 
+1. aiscs data to be uploaded but the csv is very distorted and need to be resend by client.
+2. Bug no. 25 from bug list.
+   product catalog is not loading showing 502 froom stocker side.
+
+   sol:-
+   we have to see the alternative of ILIKE which we are using in our stocker query in 
+   prodyct.py (query).
+
+ 
