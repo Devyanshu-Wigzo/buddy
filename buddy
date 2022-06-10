@@ -58,5 +58,33 @@
    sol:-
    we have to see the alternative of ILIKE which we are using in our stocker query in 
    prodyct.py (query).
+3. Exporting curtom segmented data from production database into csv of custom client.
 
+   Query :- select * from segment cache where segemnt id = 1233 and org id = 1234
+
+-------------------------------------------------------------------------------------------
+
+08-06
+1. Here's my EOD for today
+1. Debugging and solving the download csv api call issue on downloading customerscsv.
+2. KT on GCP by aayushman and atif. 
+Pending task :-
+1. Product catalog issue on bug list number :- 25. Need to have a brief discussion on the solution with atif and ankit sir. 
+2. creating order downloadcsv api. First I need to verify whether the api exists or not. 
  
+-------------------------------------------------------------------------------------------
+
+09-06
+
+1. Tried uploading any data on my local machine getting error on jkart data.
+For csv uploading on gcp i have created an account on gcp so that for any custom data i dont have to go to atif or Ayushman i can upload locally through it.
+
+2.  Also tried running scheduler run on local machine the credentials of snitch which i have received from Atif earlier got expired will retry tomorrow.
+
+Task for tomorrow:-
+1. Product catalog issue debugging.
+2. Need a kt on gcp from aayushman.
+-----------------------------------------------------------------------------------------------
+
+10-06
+
