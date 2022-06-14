@@ -89,3 +89,37 @@ Task for tomorrow:-
 10-06
 
 1. Product catalog query 
+
+-----------------------------------------------------------------------------------------------
+
+13-06
+ 
+1. Assign a ticket (1476) to asad regarding customer csv exporting.
+2. Tested magento_bugfix by atif.
+3. Made iceman.wigzo.com live with aayushman.
+4. locally imported data on stocker
+
+-----------------------------------------------------------------------------------------------
+
+14.06
+
+1. jobs-rerun of mganeto clients
+   Re-run last run at --> 1970
+   1. 10671 --> Done 
+   (OK tested)
+
+   2. 8640  --> jobs create  
+
+   3.  9737 --> Done (in waiting state)
+
+   4. 10262 --> Done 
+
+   5. 10871 --> Done 
+
+   6. 8844 --> does not exist in store(integration not done) 
+
+2. Client query call with apex footwear regarding custom csv uploads 
+3. growth site live in process all sites available on sites-blogs goes down
+   sol : took backup and pointed it somewhere else
+
+ 
