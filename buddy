@@ -119,7 +119,34 @@ Task for tomorrow:-
 
    6. 8844 --> does not exist in store(integration not done) 
 
-2. Client query call with apex footwear regarding custom csv uploads 
+2. Client query call with apex footwear regarding custom csv uploads
+   Apex footwear csv data issue
+
+   1. Customer Csv
+   
+   1. customer_id is missing
+   2. First name and last name should be in spereate format
+
+   2. order_item
+
+   1. line_item_id is missing
+
+   3. Orders
+
+   1. customer_id is missing 
+   2. Created_at format is unknown
+   3. order_id is missing 
+
+   4. Products 
+   
+   1. title and image is missing if afterwards in the the broadcast the client will search for the product no image no titile nothing will be shown.
+   
+5. refund_item
+
+   1. refund_line_item id is missing. 
+
+
+* All the files should be seperate and will be in proper csv format. 
 3. growth site live in process all sites available on sites-blogs goes down
    sol : took backup and pointed it somewhere else
 
