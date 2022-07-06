@@ -187,5 +187,37 @@ succesfully setup the cart and pointed it to magento.wigzoapp.com
 
 1. Custom CSV upload on org_id 10747 
 2. Kt Given to vishal on product
-
+3. GTM integration of bumchum 
+4. stocker setup on new instance 
 ------------------------------------------------------------------------------------------
+
+
+06-07 
+
+1. Kt given to vishal.
+2. Sanity of ENAMOR csv data is being done and replied in the thread.
+
+   1. Order List 
+
+   1. Customer_id is missing therefore will create in making segments.
+   2. Zip contains alphabets we take only integer value 
+   3. Phone number are distorted 
+
+
+   2. order_item 
+
+   1. line_item_id, Product_id, variant_id contains alphabets but we only take integers as value. 
+   2. Customer_id is missing. 
+
+
+   3. Customers 
+   1. The customer id should match with order to create further segments. 
+   2. zip should have integer value. 
+
+
+   4. Product  
+
+   1. product_id should not have alphbets as we take only integer as value and the product id should match in order_item.
+
+
+3. solution for enamor csv is that we have to map all missing cuustomer id with phonee number 
