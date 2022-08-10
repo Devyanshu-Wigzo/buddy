@@ -221,3 +221,247 @@ succesfully setup the cart and pointed it to magento.wigzoapp.com
 
 
 3. solution for enamor csv is that we have to map all missing cuustomer id with phonee number 
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+07-07
+
+1. Nasher_miles Csv uploaded 
+2. 
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+08-07
+
+1. v2kart data sanity,
+    Sanity is taking time as the data is in Lakhs. I am still working on it.
+2. APex issue discussed with shobhit and asked him to resend the apex data with correct format
+
+3. stocker KT with vishal is still pending 
+4. coordinated with anubha and fasial for ticket 1630, 1638 respectively for csv uploads. 
+5. another csv from saad bhai is in queue as i first need to do v2kart. 
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+11-07
+
+1. v2kart customer and order data uploaded on production.
+2. 2 calls attended with Ankit sir explaining GCP and other things related to devoops to Vishal.
+    One was from 3:00 to 4:00 pm and another was from 6:00 to 8:00 pm
+3. Short client call along with faisal explaining the sanity issue in csv of SAANA ticket no. 1638
+
+----------------------------------------------------------------------------------------------------------------------
+
+12-07
+
+1. v2kart data is being uploaded.
+2. mock drill on gcp creating a snapshot and backup.
+3. tried updating navya's fashion order will update today along with devesh.
+
+----------------------------------------------------------------------------------------------------------------------
+
+14-07
+
+1. Terraform study 
+2. Requested repository access from atyab sir.
+3. Store created and job run of v2kart org_id 11066
+4. KT on store creation and job run from devesh.
+5. Initialized wigzo_2.0 prod database locally.
+
+--------------------------------------------------------------------------------------------------------------
+
+1. Custom csv upload on org_id = 10747.
+2. Intellij idea cracked version setup
+3. stocker database connected to production.
+
+-------------------------------------------------------------------------------------------
+
+
+05-07
+
+1. Custom CSV upload on org_id 10747
+2. Kt Given to vishal on product
+3. GTM integration of bumchum
+4. stocker setup on new instance
+------------------------------------------------------------------------------------------
+
+
+06-07
+
+1. Kt given to vishal.
+2. Sanity of ENAMOR csv data is being done and replied in the thread.
+
+   1. Order List
+
+   1. Customer_id is missing therefore will create in making segments.
+   2. Zip contains alphabets we take only integer value
+   3. Phone number are distorted
+
+
+   2. order_item
+
+   1. line_item_id, Product_id, variant_id contains alphabets but we only take integers as value.
+   2. Customer_id is missing.
+
+
+   3. Customers
+   1. The customer id should match with order to create further segments.
+   2. zip should have integer value.
+
+
+   4. Product  
+
+   1. product_id should not have alphbets as we take only integer as value and the product id should match in order_item.
+
+
+3. solution for enamor csv is that we have to map all missing cuustomer id with phonee number
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+07-07
+
+1. Nasher_miles Csv uploaded
+2.
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+08-07
+
+1. v2kart data sanity,
+    Sanity is taking time as the data is in Lakhs. I am still working on it.
+2. APex issue discussed with shobhit and asked him to resend the apex data with correct format
+
+3. stocker KT with vishal is still pending
+4. coordinated with anubha and fasial for ticket 1630, 1638 respectively for csv uploads.
+5. another csv from saad bhai is in queue as i first need to do v2kart.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+11-07
+
+1. v2kart customer and order data uploaded on production.
+2. 2 calls attended with Ankit sir explaining GCP and other things related to devoops to Vishal.
+    One was from 3:00 to 4:00 pm and another was from 6:00 to 8:00 pm
+3. Short client call along with faisal explaining the sanity issue in csv of SAANA ticket no. 1638
+
+----------------------------------------------------------------------------------------------------------------------
+
+12-07
+
+1. v2kart data is being uploaded.
+2. mock drill on gcp creating a snapshot and backup.
+3. tried updating navya's fashion order will update today along with devesh.
+
+----------------------------------------------------------------------------------------------------------------------
+
+14-07
+
+1. Terraform study
+2. Requested repository access from atyab sir.
+3. Store created and job run of v2kart org_id 11066
+4. KT on store creation and job run from devesh.
+5. Initialized wigzo_2.0 prod database locally.
+
+--------------------------------------------------------------------------------------------------------------
+
+1. Sanity of data of refresh client.
+2. Python code for converting alphabet columns to integers.
+3. Sanana data sanity.
+
+---------------------------------------------------------------------------------------------------------------
+KT taken from ankit sir on documentation preparation and Wigzo infrastructure  
+2. stocker code study.
+3. New table created of product_map.
+
+------------------------------------------------------------------------------------------------------------
+
+Here's my eod for today
+
+1. Refresh data sanity and report given to faisal.
+2. New brandsthattext wordpress site setup as older one was compromised.
+3. Helped asad in importing data to his local stocker.
+4. Searched first order and last order received of APEX.
+
+-----------------------------------------------------------------------------------------------------------------
+1.Navyas fashion order update.
+2. Kt from aayushman regarding Cassandra downtime which happened today and how to make it live.
+3. CSV upload of REFRESH.
+------------------------------------------------------------------------------------------------------------------
+
+ApexOrder data uploaded.
+2. Navyas Fashion order updated.
+
+-------------------------------------------------------------------------------------------------------------------
+
+1. Data sanity report resend of Asics.
+2. Cassandra R/D
+3. Stocker release sent along with devesh.
+4. Database set-up of stocker and wigzo.
+5. Apex data timeline checked and reported to saad bhai.
+
+------------------------------------------------------------------------------------------------------------------
+
+Here's my eod
+1. Tracker.wigzo pods failure.
+    Description:- The pods of tracker.wigzo are restarting themselves, Root cause is still unknown.
+    Resource time:- I had a call with Ankit sir, Aayushman, Vishal, Atyab sir, Saad sir. 
+    Resolution time :- we are still working on this problem and exploring every aspect of the problem.
+
+2. Ticket no. 1679 
+    Description:- The csv which REFRESH has provided us combinely contain order data and order_item data. 
+    Resource time:- Had a call with Devesh about what we have to do. 
+    Resolution time:- we will try to give the solution on coming Monday i.e 1-Aug.
+
+3. Stocker setup of Mansi and Apoorv 
+    Description:- Mansi and Apoorv both require stocker setup for product queries. 
+    Resolution Time:- Today i.e 29-July.
+
+------------------------------------------------------------------------------------------------------------------------------
+
+01-08
+1679 Sanity issue report send Resolved Medium 02-07 csv upload in database
+1809 Sanity issue report send Resolved Medium 02-07 csv upload in database
+realease to be send of product catalog error Product catalog error 502 pending high 01-08(Mid-night)
+
+02-08
+realease to be send of product catalog error Product catalog error 502 pending high 02-08(Mid-night)
+1809 CSV upload Resolved High 02-05 csv upload custom platform
+Daily_object csv upload Debugging the error and csv upload of Pending High 03-05
+
+03-08
+pending csv upload pending csv uploaded of refresh
+Revenue count issue with refresh Revnue count of Refresh was showing 0 Resolved High 03-05
+Sanity issue discussion with shilpa Daily object product image url was too long too upload descussed it with shilpa and shared correct image url Resolved high 03-05
+Custom analytic integration Refresh custom analytics integration done Resolved High 03-05
+Sanity issue report shared with faisal Customer csv having some special characters shared with faisal
+
+04-08
+Client call with asics Sanity issue client call with asics Resolved High
+Customer csv upload refresh Ticket 1679 Closed Resolved
+1858 Custom segment not working as store was not registered. Resolve high      
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+09-08                                                                         
+Daily object data uploaded                                                                            
+1879 ticket no. solved                                                                          
+created store and ran jobs of daily objects                                                                          
+                                                                           
+                                                                           
+--------------------------------------------------------------------------------------------------------------------------------
+
+10-08
+
+1. Daily object sanity report 
+2. VegNonveg job custom integration 
+3. Daily object custom integration and store registered and job run 
+4. 
