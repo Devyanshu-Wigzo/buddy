@@ -465,3 +465,145 @@ created store and ran jobs of daily objects
 2. VegNonveg job custom integration 
 3. Daily object custom integration and store registered and job run 
 4. 
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+21-11
+
+*cloudlfare
+info@wigzo.com
+Cxp2#$kal1
+
+
+*godaddy
+55139086 Kaushik@9582900089
+
+scepter ip :- 35.190.31.42
+
+
+
+docker build -f Dockerfile -t asia.gcr.io/data-storage-242311/scepter:v3.1 .
+gcloud docker -- push asia.gcr.io/data-storage-242311/scepter:v34
+ 1958  kubectl set image -n scepter deployment/scepter scepter-sha256-1=asia.gcr.io/data-storage-242311/scepter:v3.1
+docker build -f Dockerfile -t asia.gcr.io/data-storage-242311/scepter:v4 .
+kubectl set image -n scpeter deployment/scpeter scepter-sha256-1=asia.gcr.io/data-storage-242311/scepter:v4
+
+
+2819  Pdf uploaded to cloud storage for public link                Done                                                                 
+      New key added in stocker (is_proxied)                     PENDING                                                                 
+      Asics order Json Check and revert to richard from cappilary  Done                                                                 
+2679  Event Not working                                            Done                                                                 
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+22-11
+
+
+curl --location --request POST 'https://app.wigzo.com/analytics/rest/v1/run_query/org/10734/segment/products/page/0/page_size/50' \
+--header 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0' \
+--header 'Accept: application/json, text/plain, */*' \
+--header 'Accept-Language: en-US,en;q=0.5' \
+--header 'Accept-Encoding: gzip, deflate, br' \
+--header 'Content-Type: application/json;charset=utf-8' \
+--header 'Origin: https://app.wigzo.com' \
+--header 'Connection: keep-alive' \
+--header 'Referer: https://app.wigzo.com/products/' \
+--header 'Cookie: _ga_SKHCQK0LQS=GS1.1.1669106539.56.1.1669108583.24.0.0; _ga=GA1.1.1291453905.1666884870; _ga=GA1.3.1291453905.1666884870; _hjSessionUser_1539810=eyJpZCI6IjJlM2Y1NDdmLTIxZWItNTUwZi1iMjMwLTA5Zjg5YTI3YzZhZSIsImNyZWF0ZWQiOjE2NjY4ODQ4ODUxMTEsImV4aXN0aW5nIjp0cnVlfQ==; WIGZO_LEARNER_ID=8ee7b817-45e7-45fd-9afc-9a7b3d47f4ef; IS_MAPPED=~USER; _BEAMER_USER_ID_rCPMYzeG12191=04fd498c-8865-4a15-b0e5-562a8a7ff5b3; _BEAMER_FIRST_VISIT_rCPMYzeG12191=2022-11-07T06:33:30.328Z; intercom-session-r66y79vn=Z2ZpNlc2L25QSVRVQ2FEVUZYOHBYWjFYekIwdFArOVIrU2l3b1Y1Sjhnc1JydnQ0YTBiUkNXMTJYUGp6VnFNWi0tOGlDdzVrYUhhYVZCcmsxMFNRcEZVZz09--f4b464e057cb822c01298fe75813e39ed9279f37; _hjMinimizedPolls=601486; _gcl_au=1.1.265204117.1667902193; _ga_7EZG5GV677=GS1.1.1667907744.2.1.1667907958.60.0.0; messagesUtk=f928c9cae4b0409f8229d40fdddb7293; _hjSessionUser_2775630=eyJpZCI6ImVlMDFiYjk4LTAzYzctNTgwOC04YTRjLTEzMTE5YzVmMzhhOCIsImNyZWF0ZWQiOjE2Njc5MDIyMDUxMzcsImV4aXN0aW5nIjp0cnVlfQ==; _fbp=fb.1.1667902205177.732397704; __hstc=49138809.32fcc0647cff3ffdcf042b55e7b1755b.1667902207817.1667902207817.1667907746274.2; hubspotutk=32fcc0647cff3ffdcf042b55e7b1755b; _gid=GA1.3.676417201.1669011278; AUTHID=a5e916d5f4f749408df5e3ac0a04c4d8; PLAY_SESSION=5d85d63dc1d6896107883abc30a4ee7cdb1a658a-sidebar_closed=0&AUTHID=a5e916d5f4f749408df5e3ac0a04c4d8; PAGE_UUID=8ee7b817-45e7-45fd-9afc-9a7b3d47f4ef; _hjIncludedInSessionSample=0; WIGZO_DAILYACTIVE=Active; _hjSession_1539810=eyJpZCI6ImE0OTdhYjM2LTc1OWItNDNiZC1hODU1LWJlOWVlNWVhNTI3MCIsImNyZWF0ZWQiOjE2NjkxMDY1NDE3MjEsImluU2FtcGxlIjpmYWxzZX0=; _hjAbsoluteSessionInProgress=1; _BEAMER_FILTER_BY_URL_rCPMYzeG12191=false' \
+--header 'Sec-Fetch-Dest: empty' \
+--header 'Sec-Fetch-Mode: cors' \
+--header 'Sec-Fetch-Site: same-origin' \
+--header 'TE: trailers' \
+--data-raw '{
+    "target": "products",
+    "org_id": "10734",
+    "criteria": {
+        "criteria_type": "intermediate",
+        "criteria_operation": "and",
+        "criteria": [
+            {
+                "criteria_type": "query",
+                "property": "tags",
+                "operator": "contains",
+                "data_type": "string",
+                "values": [
+                    {
+                        "raw": "beti"
+                    }
+                ],
+                "property_name": "Title",
+                "operator_name": "Contains"
+            }
+        ]
+    }
+}'
+
+
+
+
+mysqldump -u [user name] –p [password] [options] [database_name] [tablename] > [dumpfilename.sql]
+
+35.206.215.222
+
+
+/mnt/secondary/webstack
+
+db name     d2cverse
+password    D2cverse@wigzo#
+
+mysqldump -u d2cverse -p D2cverse@wigzo# --databases d2cverse > d2cverse_backup_22NOV.sql
+
+
+
+
+
+
+Cname and A name, SNI,
+
+
+---------------------------------------------------------------------------------------------------------------
+
+28-NOV
+
+Postgresql query 
+
+select * from broadcast_campaign bc where scheduled_date_time between '2022-10-10 00:00:00.000' and '2022-10-10 23:59:00.000'  
+
+
+select * from mapped_user mu where mapping_time between '2022-08-01 00:00:00' and '2022-08-31 23:59:00' and org_id = 10605
+
+
+select count(id) from customer c where org_id = 10410 and customer_id in (select customer_id from "order" o where is_processed = true and org_id = 10410)
+
+
+select count(*) from customer c where org_id = 10410 and data_source = 'wigzo';
+
+
+
+select * from customer c where org_id = 10410 and customer_id < 619421; 
+
+select count(*) from "order" o where org_id = 10410 and phone <> '';
+
+
+delete from customer where org_id = 10410;
+
+
+
+
+select * from customer c where org_id = 11776 and rfm_segment = 'at_risk';
+
+
+
+select * from customer c where org_id = 11776 and created_at between '2022-09-01' and '2022-10-01' and orders = '1';
+
+
+For Null column
+select count(*) from mapped_user mu where org_id = 8376 and phone <> '';  
+
+
+
+select * from third_party_campaign tpc  where org_id = 11249 and created between  '2022-11-10 00:00:00' and  '2022-11-10 00:00:00';
+
+
